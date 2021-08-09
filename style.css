@@ -1,0 +1,58 @@
+/* Styles */
+
+.page {
+    margin: 0;
+    padding: 0;
+    transition: all .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.page__title {
+    font-size: 120px;
+    max-width: 480px;
+    line-height: .9em;
+    margin: 0;
+}
+
+.switcher {
+    background-color: red;
+    height: 400px;
+    padding: 50px;
+    box-shadow: 9px 9px 0px 2px antiquewhite;
+}
+
+.switcher__toggle {
+    color: #fff;
+    font-size: 40px;
+    max-width: 240px;
+    display: block;
+    text-decoration: none;
+}
+
+.switcher__icon {
+    display: block;
+    font-size: 110px;
+    padding: 50px;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+.switcher__icon:hover {
+    transform: rotate(45deg);
+    opacity: .9;
+    color: #000;
+}
+
+
+/* Dark theme styles */
+.dark .page {
+    background-color: #000;
+    color: antiquewhite;
+}
+
+.dark .switcher__toggle {
+    color: antiquewhite;
+}
