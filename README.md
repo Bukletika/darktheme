@@ -4,7 +4,7 @@
 Переключает тему со светлой на темную путем добавления класса dark к html
 
 ##Ссылка на проект
-[https://bukletika.github.io/darktheme/]:https://bukletika.github.io/darktheme/
+[bukletika.github.io/darktheme/](https://bukletika.github.io/darktheme/)
 
 ##Используемые технологии
 * HTML5
